@@ -1,16 +1,14 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:fun_facts/components/my_drawer.dart';
-import 'package:fun_facts/pages/favorites_page.dart';
 import 'package:fun_facts/pages/settings_page.dart';
-import 'package:fun_facts/providers/theme_provider.dart';
 import 'package:fun_facts/services/firestore.dart';
-import 'package:provider/provider.dart';
 
 class HomePage extends StatefulWidget {
-  HomePage({super.key});
+  const HomePage({super.key});
 
   @override
+  // ignore: library_private_types_in_public_api
   _HomePage2State createState() => _HomePage2State();
 }
 
@@ -22,10 +20,8 @@ class _HomePage2State extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
-    var themeProvider = Provider.of<ThemeProvider>(context);
-
     return Scaffold(
-      drawer: MyDrawer(),
+      drawer: const MyDrawer(),
       appBar: AppBar(
         actions: [
           Container(

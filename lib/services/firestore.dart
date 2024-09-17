@@ -1,3 +1,5 @@
+// ignore_for_file: use_build_context_synchronously
+
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 
@@ -38,7 +40,7 @@ class FirestoreService {
         );
       }
     } catch (e) {
-      print('Failed to add quote to favorites: $e');
+      return;
     }
   }
 

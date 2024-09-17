@@ -34,10 +34,7 @@ class _FavoritesPageState extends State<FavoritesPage> {
                   setState(() {
                     docId = ''; // Reset the docId after deletion
                   });
-                }).catchError((error) {
-                  // print any error that may occur during deletion
-                  print("Error deleting document: $error");
-                });
+                }).catchError((error) {});
               }
             },
             child: const Text("Remove"),
