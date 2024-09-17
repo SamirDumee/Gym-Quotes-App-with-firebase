@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1072029351505",
+    "project_id": "gym-quotes-be763",
+    "storage_bucket": "gym-quotes-be763.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1072029351505:android:8a6ad2ebe3dc34a7794270",
+        "android_client_info": {
+          "package_name": "com.example.fun_facts"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNP0ZLdfC-EM6z1DiPL3IVYsp0Z13I55c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
